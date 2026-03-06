@@ -27,7 +27,7 @@ Filebeat следует сконфигурировать для отправки
 
 Результат команды `docker ps` для контроля запущенных контейнеров
 ![Screen01](https://github.com/MrVanG0gh/Netology_monitoring_03/blob/main/Screens/Screen01.png)
-- Здесь мы видим пять котейнеров для ELK-стека и 1 контейнер с dummy-приложением.
+Здесь мы видим пять котейнеров для ELK-стека и 1 контейнер с dummy-приложением.
 
 Скриншот домашней страницы kibana
 ![Screen02](https://github.com/MrVanG0gh/Netology_monitoring_03/blob/main/Screens/Screen02.png)
