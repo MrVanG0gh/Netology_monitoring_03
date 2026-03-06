@@ -46,6 +46,7 @@ Filebeat следует сконфигурировать для отправки
 ## Решение задания 2
 
 ![Screen03](https://github.com/MrVanG0gh/Netology_monitoring_03/blob/main/Screens/Screen03.png)
+![Screen06](https://github.com/MrVanG0gh/Netology_monitoring_03/blob/main/Screens/Screen06.png)
 Согласно заданию были добавлены два индекс-паттерна "index1" и "index2"
 
 ![Screen04](https://github.com/MrVanG0gh/Netology_monitoring_03/blob/main/Screens/Screen04.png)
