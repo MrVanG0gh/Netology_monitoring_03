@@ -27,6 +27,7 @@ Filebeat следует сконфигурировать для отправки
 
 Результат команды `docker ps` для контроля запущенных контейнеров
 ![Screen01](https://github.com/MrVanG0gh/Netology_monitoring_03/blob/main/Screens/Screen01.png)
+- Здесь мы видим пять котейнеров для ELK-стека и 1 контейнер с dummy-приложением.
 
 Скриншот домашней страницы kibana
 ![Screen02](https://github.com/MrVanG0gh/Netology_monitoring_03/blob/main/Screens/Screen02.png)
@@ -42,6 +43,17 @@ Filebeat следует сконфигурировать для отправки
 В манифесте директории help также приведенно dummy-приложение, которое генерирует рандомные события в stdout-контейнера.
 Эти логи должны порождать индекс logstash-* в elasticsearch. Если этого индекса нет — воспользуйтесь советами и источниками из раздела «Дополнительные ссылки» этого задания.
  
+## Решение задания 2
+
+![Screen03](https://github.com/MrVanG0gh/Netology_monitoring_03/blob/main/Screens/Screen03.png)
+Согласно заданию были добавлены два индекс-паттерна "index1" и "index2"
+
+![Screen04](https://github.com/MrVanG0gh/Netology_monitoring_03/blob/main/Screens/Screen04.png)
+Здесь можно видеть как идет накопление логов с течением времени
+
+![Screen05](https://github.com/MrVanG0gh/Netology_monitoring_03/blob/main/Screens/Screen05.png)
+Здесь используется фильтр `container.image.name.keyword : *alpine` для ограничения выборки
+
 ---
 
 ### Как оформить решение задания
